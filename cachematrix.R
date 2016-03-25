@@ -1,8 +1,11 @@
 #author Arunkumar Maniam Rajan
 
-##  This R program contains functions which creates a special matrix object which can cache the inverse.
+##  This R program contains functions which creates a special 
+##  matrix object which can cache the inverse.
 
-## This function provides set/get methods for modifying the matrix and provides setInverse/getInverse functions to set/get the cache which holds the Inverse of the matrix.
+## This function provides set/get methods for modifying the matrix 
+## and provides setInverse/getInverse functions to set/get the cache
+## which holds the Inverse of the matrix.
 
 makeCacheMatrix <- function(x = matrix()) {
       cachedInverse <- NULL
